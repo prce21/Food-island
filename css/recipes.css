@@ -185,6 +185,21 @@ li{
 
 /* recipes-info */
 
+.recipes-detail h1{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 24px;
+}
+
+.all-info-wrap{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 18px;
+
+}
+
 .chef-wrap{
     display: flex;
     flex-direction: row;
@@ -193,11 +208,277 @@ li{
 
 .chef-img{
     display: block;
-    width:40px;
-    height: 40px;
+    width:25px;
+    height: 25px;
     border-radius: 50%;
     background-image: url(assets/mathilde-langevin-PaCzyxEcqiw-unsplash.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    margin-right: 8px;
+}
+
+.upload-desc li:first-child{
+    font-weight: 600;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.upload-desc li:last-child{
+    font-weight: 500;
+    font-size: 10px;
+    color:gray;
+}
+
+.prep-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.timer-icon{
+    display: block;
+    width:20px;
+    height:20px;
+    background-image: url(assets/chronometer\ \(1\).png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 8px;
+}
+
+.prep-desc li:first-child{
+    margin-bottom: 4px;
+    line-height: 1.21;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.prep-desc li:last-child{
+    color:gray;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+}
+
+.cooking-wrap{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.cook-desc li:first-child{
+    margin-bottom: 4px;
+    line-height: 1.21;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+.cook-desc li:last-child{
+    color:gray;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 1.21;
+    letter-spacing: -0.02em;
+}
+
+.print-share-web{
+    display: none;
+}
+
+.recipes-img-wrap{
+    position: relative;
+}
+
+.recipes-img{
+    display: block;
+    width:90%;
+    height:270px;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.play-button{
+    display: block;
+    width:40px;
+    height: 40px;
+    background-image: url(assets/play.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    cursor: pointer;
+    border:none;
+    transition: background-color 100ms ease 0s;
+}
+
+.play-button:hover{
+    background-color: #F24C4C;
+}
+
+.nutrition h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.nutrition-detail{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 16px 20px;
+    border-bottom: 1px solid lightgray;
+    font-size: 14px;
+}
+
+
+@media screen and (min-width:768px){
+
+    .recipes-wrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .recipes-detail h1{
+        text-align: left;
+        font-size: 48px;
+        font-weight: 600;
+        margin-top: 80px;
+        margin-bottom: 24px;
+    }
+
+    .all-info-wrap{
+        justify-content: flex-start;
+        margin-bottom: 64px;
+    }
+
+    .chef-wrap{
+        margin-right: 36px;
+    }
+
+    .chef-img{
+        width:45px;
+        height: 45px;
+        margin-right: 16px;
+    }
+
+    .upload-desc li:first-child{
+        font-size: 16px;
+        line-height: 1.21;
+        letter-spacing: -0.02em;
+        margin-bottom: 4px;
+    }
+
+    .upload-desc li:last-child{
+        font-size: 14px;
+        line-height: 1.21;
+        letter-spacing: -0.02em;
+    }
+
+    .prep-wrap{
+        margin-right: 36px;
+    }
+
+    .timer-icon{
+        margin-right: 16px;
+    }
+
+    .prep-desc li:first-child{
+        font-size: 12px;
+    }
+
+    .prep-desc li:last-child{
+        font-size: 14px;
+    }
+
+    .cook-desc li:first-child{
+        font-size: 12px;
+    }
+    
+    .cook-desc li:last-child{
+        font-size: 14px;
+    }
+
+    .print-share-web{
+        display: flex;
+        flex-direction: row;
+        margin-top: 60px;
+    }
+
+    .print{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-right: 32px;
+        font-size: 12px;
+        line-height: 1.21;
+        letter-spacing: 0.1em;
+    }
+
+    .print-icon{
+        display: block;
+        width:60px;
+        height:60px;
+        padding: 20px 20px;
+        background-color: #E7FAFE;
+        border-radius: 10px;
+        margin-bottom: 16px;
+    }
+
+    .share{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;
+        line-height: 1.21;
+        letter-spacing: 0.1em;
+    }
+
+    .share-icon{
+        width:60px;
+        height:60px;
+        padding: 20px 20px;
+        background-color: #E7FAFE;
+        border-radius: 10px;
+        margin-bottom: 16px;
+    }
+
+    
+    .recipes-img{
+        display: block;
+        width:100%;
+        height:400px;
+        margin:0;
+        border-radius: 12px;
+    }
+
+    .play-button{
+        width:60px;
+        height:60px;
+    }
+
+    .nutrition{
+        height:400px;
+    }
+
+    .nutrition h1{
+        text-align: left;
+    }
+
+    .nutrition-detail{
+        padding:20px 0px;
+        font-size: 16px;
+    }
+
 }
