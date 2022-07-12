@@ -186,18 +186,18 @@ li {
 
 
 .about-title{
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 600;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 80px;
 }
 
 .about-title-sub{
     display: block;
     text-align: center;
-    font-size: 14px;
+    font-size: 12px;
     color: gray;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 
 .vision-wrap{
@@ -277,11 +277,9 @@ li {
 }
 
 .team-title{
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 20px;
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 30px;
 }
 
 .team-wrap{
@@ -314,7 +312,6 @@ li {
 @media screen and (min-width:768px) {
     .about-title{
         font-size: 48px;
-        margin-top: 80px;
     }
     
     .about-title-sub{
@@ -415,7 +412,7 @@ li {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .footer-logo h1{

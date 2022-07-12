@@ -187,11 +187,11 @@ li{
 /* contact  */
 
 .contact-title{
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 600;
     text-align: center;
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin-top: 80px;
+    margin-bottom: 40px;
 }
 
 .ceo-name-box{
@@ -265,12 +265,9 @@ li{
 }
 
 .contact-form h1{
+    font-size: 22px;
     text-align: center;
-    margin-bottom: 12px;
-}
-
-.input-box{
-    margin-top: 20px;
+    margin-bottom: 18px;
 }
 
 .name-box{
@@ -413,6 +410,7 @@ li{
     border-radius: 16px;
     border: 1px solid lightgray;
     padding: 8px;
+    margin-bottom: 40px;
 }
 
 .message-box textarea::placeholder{
@@ -425,7 +423,6 @@ li{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top: 32px;
 }
 
 .submit{
@@ -439,11 +436,12 @@ li{
     color:#FFFFFF;
     border-radius: 12px;
     border: none;
+    cursor: pointer;
 }
 
 .faq-box h1{
     text-align: center;
-    margin-top: 60px;
+    margin-top: 80px;
     margin-bottom: 16px;
 }
 
@@ -473,6 +471,7 @@ li{
     background-repeat: no-repeat;
     background-size: contain;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 @media screen and (min-width:768px){
@@ -574,6 +573,7 @@ li{
     
     .message-box textarea{
         padding: 16px;
+        margin-bottom: 36px;
     }
 
     .enquiry-box textarea::placeholder{
@@ -582,12 +582,10 @@ li{
 
     .submit-box{
         justify-content: flex-start;
-        margin-top: 36px;
     }
 
     .faq-box h1{
         text-align: left;
-        margin-top: 80px;
         margin-bottom: 22px;
         font-size: 28px;
     }
@@ -612,7 +610,7 @@ li{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 60px;
 }
 
 .footer-logo h1{
